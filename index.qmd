@@ -1,0 +1,12 @@
+# Title
+
+```{python}
+from ipywidgets import interact
+```
+
+```{python}
+def f(x):
+    return x
+
+interact(f, x=10);
+```
